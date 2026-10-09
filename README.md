@@ -1,6 +1,6 @@
-# algobot-ai
+# AImedRound
 
-**algobot-ai** to program, który pomaga ćwiczyć zadania algorytmiczne, na przykład pod konkursy w stylu Codeforces.
+**AImedRound** to program, który pomaga ćwiczyć zadania algorytmiczne, na przykład pod konkursy w stylu Codeforces.
 
 Dobiera zadania z istniejących baz według poziomu użytkownika oraz tematów, w których jest mocny albo słaby. Pozwala układać contesty o zadanym rankingu albo na poziomie wskazanego konkursu, a także sprawdzać aktualny poziom rozwiązującego (rozwiązujących) w celu np: robienia lokalnych eliminacji.
 
@@ -15,7 +15,7 @@ Na początek:
 ## Struktura
 
 ```text
-algobot-ai-agents-mini/
+AImedRound/
 ├── README.md
 └── docs/
     └── VISION.md
