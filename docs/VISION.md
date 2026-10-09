@@ -1,4 +1,4 @@
-# AImedRound
+# AImingRound
 
 Osoby przygotowujące się do konkursów algorytmicznych często mają trudności
 z doborem zadań do ćwiczeń. Chcemy stworzyć program, który pomoże im
