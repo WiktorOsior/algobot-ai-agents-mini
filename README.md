@@ -33,3 +33,5 @@ algobot-ai-agents-mini/
 Kod źródłowy jest udostępniany na licencji MIT.
 
 Materiały pochodzące z zewnętrznych źródeł podlegają licencjom i prawom ich odpowiednich autorów.
+
+Układ README i wizji wzorowany na projekcie [campus-ai-assistant](https://github.com/sulmar/campus-ai-assistant/), mgr Marcin Sulecki, Politechnika Warszawska, licencja CC BY 4.0.
