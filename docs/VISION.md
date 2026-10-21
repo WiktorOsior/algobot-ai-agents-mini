@@ -14,6 +14,21 @@ konkursu.
 Program pozwala sprawdzić poziom rozwiązującego albo grupy rozwiązujących,
 na przykład przy lokalnych eliminacjach.
 
+## Użytkownicy
+
+Pierwsza grupa to zawodnicy konkursów algorytmicznych, na przykład
+Codeforces, OI czy ICPC. Trenują sami i chcą zadań, które trafiają
+w ich słabe tematy, a nie tych, które już umieją.
+
+Druga grupa to uczestnicy kół ICPC i osoby, które je prowadzą. Koło
+potrzebuje treningów dla całej drużyny i lokalnych eliminacji, po których
+widać, kto na jakim jest poziomie.
+
+Trzecia grupa to osoby przygotowujące się do rozmów rekrutacyjnych
+w software. Rozmowy techniczne często sprawdzają te same tematy co
+konkursy, na przykład grafy, programowanie dynamiczne czy struktury danych,
+tylko na niższym poziomie trudności.
+
 ## Dwa działania
 
 Są dwa główne działania: solo training i contest.
