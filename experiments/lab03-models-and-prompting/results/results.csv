@@ -1,0 +1,15 @@
+experiment,model,variant,temperature,total,valid_json,mode_accuracy,rating_accuracy,topic_accuracy,exact_match,avg_ms,stable
+EXP-01,gemma3:4b,zero-shot,0,25,25,0.96,0.68,0.64,0.32,3741,
+EXP-01,qwen3:4b,zero-shot,0,25,0,0,0,0,0,23294,
+EXP-01,qwen2.5-coder:3b,zero-shot,0,25,25,0.96,0.92,0.96,0.84,939,
+EXP-01,gemma4:e4b,zero-shot,0,25,25,0.92,1,0.96,0.88,14968,
+EXP-02,qwen2.5-coder:3b,zero-shot,0,25,25,0.96,0.92,0.96,0.84,956,
+EXP-02,qwen2.5-coder:3b,one-shot,0,25,25,0.96,0.88,0.96,0.8,693,
+EXP-02,qwen2.5-coder:3b,few-shot,0,25,25,1,0.84,0.96,0.8,704,
+EXP-04,qwen2.5-coder:3b,prompt,0,25,25,0.96,0.92,0.96,0.84,690,
+EXP-04,qwen2.5-coder:3b,json-schema,0,25,25,0.96,0.92,0.96,0.84,678,
+EXP-03,qwen2.5-coder:3b,x3,0,75,75,0.96,0.92,0.96,0.84,709,25
+EXP-03,qwen2.5-coder:3b,x3,0.5,75,75,0.92,0.77,0.93,0.71,611,14
+EXP-03,qwen2.5-coder:3b,x3,1,75,75,0.89,0.68,0.95,0.6,614,8
+EXP-01,qwen3:4b-instruct,zero-shot,0,25,25,1,0.76,0.92,0.72,1220,
+EXP-01,openai/gemma-4-31b:Q8_K_XL,zero-shot,0,25,25,1,1,1,1,9145,

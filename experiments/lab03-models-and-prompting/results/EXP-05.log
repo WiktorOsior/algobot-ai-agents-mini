@@ -1,0 +1,125 @@
+
+Model: gemma3:4b
+✗ SC-01 (Trzech prawdziwych pupili z CF, nikt nie rozwiązał zadań z puli)
+    zadania: 6C (1200), 1228A (800), 2210C1 (1200), 1324A (900)
+    poprawny=✓ nierozwiązane=✓ poziom=✗ rosnąco=✗ rozrzut=✓ uzasadnienie=✓
+    uzasadnienie: Wybieram te 4 zadania, aby stworzyć contest zróżnicowany pod względem tematycznym i trudności, dostosowany do poziomu uczestników. Zadania 6C i 1228A to problemy o niskim ratingu (800), które powinny być łatwe dla wszystkich, nawet dla najsłabszych. Zadanie 2210C1 to problem o ratingu 1200, który wymaga zastosowania algorytmów opartego na GCD, a 1324A to problem o ratingu 900 z wykorzystaniem liczb pierwszych i implementacji, który stanowi wyzwanie dla uczestników z wyższym ratingiem.  Uważam, że ta kombinacja zapewnia sprawiedliwą i angażującą rozgrywkę dla całej grupy.
+✗ SC-02 (Ci sami pupile + wymyślona osoba, która rozwiązała 4 zadania z puli)
+    zadania: 1228A (800), 996A (800), 1011A (900), 1760D (1000)
+    poprawny=✓ nierozwiązane=✓ poziom=✗ rosnąco=✓ rozrzut=✓ uzasadnienie=✓
+    uzasadnienie: Wybieram te cztery zadania, aby stworzyć contest zróżnicowany pod względem tematycznym i trudności, dostosowany do poziomu uczestników.  Zaczynam od prostych zadań, takich jak 1228A (Distinct Digits) i 996A (Hit the Lottery) o ratingu 800, które powinny być rozwiązywane przez nawet najsłabszych uczestników. Następnie dodaję 1011A (Stages) i 1760D (Challenging Valleys) o ratingu 900 i 1000, aby wprowadzić nieco większy poziom wyzwania.  Zadania te obejmują różne techniki, takie jak brute force, greedy, DP i konstrukcje algorytmiczne, co powinno sprawić, że contest będzie interesujący dla wszystkich uczestników, a jednocześnie nie zbytnio frustrujący dla najsłabszych.
+✗ SC-03 (Duży rozrzut poziomów: newbie, pupil i expert)
+    zadania: 1228A (800), 1011A (900), 1324A (900), 1760D (1000)
+    poprawny=✓ nierozwiązane=✗ poziom=✓ rosnąco=✓ rozrzut=✓ uzasadnienie=✓
+    uzasadnienie: Wybieram te 4 zadania, aby stworzyć contest zróżnicowany pod względem tematycznym i trudności, dostosowany do poziomu uczestników. Dla tomera_n (950) proponuję 1228A (Distinct Digits) i 1475A (Odd Divisor) - zadania implementacyjne o niskim ratingu, które powinny być łatwe do rozwiązania. Dla szeldon555 (1216) proponuję 1011A (Stages) - zadanie z sortowaniem i greedy, które powinno stanowić dobry krok w górę pod względem trudności. Dla kasia_ex (1650) proponuję 1324A (Yet Another Tetris Problem) i 1760D (Challenging Valleys) - zadania implementacyjne o wyższym ratingu, które powinny stanowić wyzwanie dla uczestnika o wysokim ratingu.
+✗ SC-04 (Słaba grupa (900-1100), część łatwych zadań już rozwiązana)
+    zadania: 1228A (800), 1011A (900), 1324A (900), 1475A (900)
+    poprawny=✓ nierozwiązane=✗ poziom=✓ rosnąco=✓ rozrzut=✗ uzasadnienie=✓
+    uzasadnienie: Wybieram te cztery zadania, aby stworzyć contest zróżnicowany pod względem tematycznym i trudności, dostosowany do poziomu uczestników. Dla oleka (900) proponuję 1228A (Distinct Digits) i 996A (Hit the Lottery) - zadania implementacyjne o niskim poziomie trudności. Zosia (1000) może spróbować 1011A (Stages) i 1324A (Yet Another Tetris Problem) - zadania z elementami greedy i number theory. Piotr (1100) ma szansę na 1475A (Odd Divisor) - zadanie z zakresu number theory.  Układam zadania od najłatwiejszych do trudniejszych, zapewniając, że nawet najsłabszy uczestnik ma szansę na sukces, a najmocniejsi będą mieli wyzwanie.
+✗ SC-05 (Mocniejsza grupa (1371-1850), część trudniejszych zadań już rozwiązana)
+    zadania: 6 (spoza puli), 234C (1300), 2181A (1300), 1011A (900)
+    poprawny=✗ nierozwiązane=✗ poziom=✗ rosnąco=✗ rozrzut=✗ uzasadnienie=✓
+    uzasadnienie: Wybieram te 4 zadania, aby stworzyć uczciwy contest dla grupy z ratingami od 1371 do 1850. Dla jkssss (1371) proponuję 6 (Alice, Bob and Chocolate - 1200 rating), które jest najłatwiejsze i skupione na prostych algorytmach. Marek (1700) może spróbować 234C (Weather - 1300 rating), które wymaga zastosowania algorytmów sortowania i optymalizacji. Ewa (1850) może rozwiązać 2181A (Alphabet City - 1300 rating), wykorzystując umiejętności z zakresu binarnych wyszukiwań i teorii liczb.  Na koniec, 1011A (Stages - 900 rating) stanowi punkt wyjścia, oferując prosty problem z sortowaniem i implementacją, który powinien być osiągalny dla wszystkich uczestników.
+Uczciwe contesty: 0/5
+
+Wyniki zapisano w /home/jan/Dokumenty/AgenciAIDotnet/algobot-ai-agents-mini/experiments/lab03-models-and-prompting/results
+
+Model: qwen3:4b
+✗ SC-01 (Trzech prawdziwych pupili z CF, nikt nie rozwiązał zadań z puli)
+    zadania: 1228A (800), 1011A (900), 1760D (1000), 1512D (1200)
+    poprawny=✓ nierozwiązane=✓ poziom=✗ rosnąco=✓ rozrzut=✓ uzasadnienie=✓
+    uzasadnienie: Wybrane zadania mają odpowiednio rosnące trudności (800, 900, 1000, 1200) i pasują do ratingów uczestników (1216, 1248, 1371). Najmniejszy rating uczestnika (1216) może rozwiązać 1228A (800), a najmocniejszy (1371) może rozwiązać 1512D (1200). Tematy są różne: brute force, greedy, implementation, data structures/greedy.
+✗ SC-02 (Ci sami pupile + wymyślona osoba, która rozwiązała 4 zadania z puli)
+    zadania: 1228A (800), 1011A (900), 1760D (1000), 1846E1 (1300)
+    poprawny=✓ nierozwiązane=✗ poziom=✗ rosnąco=✓ rozrzut=✓ uzasadnienie=✓
+    uzasadnienie: Najniższy rating uczestników to 1216, więc najłatwiejsze zadanie musi mieć rating <= 1216. 1228A (800) jest najłatwiejszym dostępne, 1011A (900) pasuje do najsłabszego, 1760D (1000) jest odpowiedni dla średniego, a 1846E1 (1300) jest wyzwaniem dla najmocniejszego. Tematy: implementacja, sortowanie, dwa wskaźniki, i matematyka są różne. Żaden uczestnik nie rozwiązał wcześniej wybranych zadań (ania_k rozwiązała 6C, 508B, 203C, 1846E1, ale 1846E1 jest w puli, więc musimy uniknąć powtórek).
+✗ SC-03 (Duży rozrzut poziomów: newbie, pupil i expert)
+    zadania: 1228A (800), 1011A (900), 1512D (1200), 2126E (1400)
+    poprawny=✓ nierozwiązane=✗ poziom=✓ rosnąco=✓ rozrzut=✓ uzasadnienie=✓
+    uzasadnienie: Najmocniejszy uczestnik (kasia_ex, 1650) nie rozwiązał wcześniej 2126E (1400), najmocniejszy nie rozwiązał 1512D (1200), najmocniejszy nie rozwiązał 1011A (900) i 1228A (800). Najsłabszy uczestnik (tomek_n, 950) może rozwiązać 1228A (800) i 1011A (900), a 1512D i 2126E są odpowiednio wyzwaniem dla najmocniejszych. Tematy: implementacja, sortowania, struktury danych i teoria liczb są różne.
+✗ SC-04 (Słaba grupa (900-1100), część łatwych zadań już rozwiązana)
+    zadania: 1011A (900), 1324A (900), 1760D (1000), 2072C (1200)
+    poprawny=✓ nierozwiązane=✗ poziom=✓ rosnąco=✓ rozrzut=✓ uzasadnienie=✓
+    uzasadnienie: Najmocniejszy uczestnik (piotr) nie rozwiązał 1760D (rating 1000), a najmniejszy (olek) nie rozwiązał 1011A, 1324A, 1760D ani 2072C. Tematy: Stages (greedy/sortings), Yet Another Tetris (implementation/number theory), Challenging Valleys (implementation/two pointers), Creating Keys (bitmasks/greedy) są różne. Trudność pasuje: 1011A (900) dla oleka, 1324A (900) dla zosii, 1760D (1000) dla piotra, 2072C (1200) dla wszystkich.
+✗ SC-05 (Mocniejsza grupa (1371-1850), część trudniejszych zadań już rozwiązana)
+    zadania: 1228A (800), 1011A (900), 1760D (1000), 1846E1 (1300)
+    poprawny=✓ nierozwiązane=✗ poziom=✗ rosnąco=✓ rozrzut=✓ uzasadnienie=✓
+    uzasadnienie: Najmocniejszy uczestnik (jkssss) nie rozwiązał wcześniej żadnych zadań, a najmniejszy (marek) nie rozwiązał 1228A, 1011A, 1760D, 1846E1. Tematy są różne: implementacja, sortowanie, dwa wskaźniki, brute force. Najłatwiejsze zadanie (1228A) pasuje do najsłabszego, a najtrudniejsze (1846E1) jest wyzwaniem dla najmocniejszego.
+Uczciwe contesty: 0/5
+
+Wyniki zapisano w /home/jan/Dokumenty/AgenciAIDotnet/algobot-ai-agents-mini/experiments/lab03-models-and-prompting/results
+
+Model: qwen3:4b-instruct
+✗ SC-01 (Trzech prawdziwych pupili z CF, nikt nie rozwiązał zadań z puli)
+    zadania: 1228A (800), 1011A (900), 1760D (1000), 2181A (1300)
+    poprawny=✓ nierozwiązane=✓ poziom=✗ rosnąco=✓ rozrzut=✓ uzasadnienie=✓
+    uzasadnienie: Wszystkie zadania są nowe dla uczestników. Zadania od 800 do 1300 ratingu są odpowiednie dla grupy o ratingach od 1216 do 1371. Wybrane zadania różnią się tematyką: implementacja, sortowanie, liczby, struktury danych i algorytmy. Ułożone są od łatwego do trudnego, co pozwala na płynny rozwój umiejętności. Zadania 1228A, 1011A, 1760D i 2181A oferują różnorodność i odpowiedni poziom trudności dla wszystkich uczestników.
+✗ SC-02 (Ci sami pupile + wymyślona osoba, która rozwiązała 4 zadania z puli)
+    zadania: 1228A (800), 1011A (900), 1760D (1000), 2181A (1300)
+    poprawny=✓ nierozwiązane=✓ poziom=✗ rosnąco=✓ rozrzut=✓ uzasadnienie=✓
+    uzasadnienie: Ania_k już rozwiązała 6C, 508B, 203C i 1846E1, więc te zadania są wykluczone. Najniższy rating uczestników to 1216, więc zadania powinny mieć rating od 800 do 1300. Wybrane zadania: 1228A (800 - implementacja, łatwe), 1011A (900 - sortowanie), 1760D (1000 - dwa wskaźniki), 2181A (1300 - binarny wyszukiwania) są nowe, różnią się tematyką (implementacja, sortowanie, dwa wskaźniki, binarny wyszukiwania) i spełniają warunki trudności i uczciwości.
+✓ SC-03 (Duży rozrzut poziomów: newbie, pupil i expert)
+    zadania: 1011A (900), 712B (1100), 1512D (1200), 2181A (1300)
+    poprawny=✓ nierozwiązane=✓ poziom=✓ rosnąco=✓ rozrzut=✓ uzasadnienie=✓
+    uzasadnienie: Zadania 1011A (900), 712B (1100), 1512D (1200) i 2181A (1300) są nowe dla wszystkich uczestników, mają odpowiednie trudności i różnią się tematykami: sortowanie, łańcuchy, struktury danych i wyszukiwanie binarne. Najłatwiejsze (1011A) jest dostępne dla Tomka, a najtrudniejsze (2181A) jest wyzwalające dla Kasi. Zadania nie były wcześniej rozwiązane przez żadnego uczestnika i są ułożone od łatwego do trudnego.
+✗ SC-04 (Słaba grupa (900-1100), część łatwych zadań już rozwiązana)
+    zadania: 1011A (900), 712B (1100), 2072C (1200), 2181A (1300)
+    poprawny=✓ nierozwiązane=✗ poziom=✓ rosnąco=✓ rozrzut=✓ uzasadnienie=✓
+    uzasadnienie: Zadania 1011A (900), 712B (1100), 2072C (1200) i 2181A (1300) są nowe dla wszystkich uczestników, mają odpowiednie ratingy i tematy: od implementacji i sortowania do binarnego wyszukiwania i stringów. Są różne tematycznie i spełniają warunki trudności: najłatwiejsze (1011A) jest dostępne dla oleka, a najtrudniejsze (2181A) jest wyzwanie dla piotra. Wszystkie zadania nie były wcześniej rozwiązane przez żadnego uczestnika.
+✗ SC-05 (Mocniejsza grupa (1371-1850), część trudniejszych zadań już rozwiązana)
+    zadania: 1228A (800), 712B (1100), 2072C (1200), 1846E1 (1300)
+    poprawny=✓ nierozwiązane=✗ poziom=✗ rosnąco=✓ rozrzut=✓ uzasadnienie=✓
+    uzasadnienie: Zadania 1228A (800), 712B (1100), 2072C (1200) i 1846E1 (1300) są nowe dla wszystkich uczestników, mają odpowiednie ratingy i różnią się tematykami: implementacja, stringy, bitmasks i matematyka. Najłatwiejsze (800) jest dostępne dla najsłabszego (marek 1700), a najtrudniejsze (1300) jest wyzwanie dla najmocniejszego (ewa 1850). Tematy są różne i rosnące w trudności.
+Uczciwe contesty: 1/5
+
+Wyniki zapisano w /home/jan/Dokumenty/AgenciAIDotnet/algobot-ai-agents-mini/experiments/lab03-models-and-prompting/results
+
+Model: qwen2.5-coder:3b
+✗ SC-01 (Trzech prawdziwych pupili z CF, nikt nie rozwiązał zadań z puli)
+    zadania: 1228A (800), 996A (800), 1011A (900), 1324A (900)
+    poprawny=✓ nierozwiązane=✓ poziom=✗ rosnąco=✓ rozrzut=✗ uzasadnienie=✓
+    uzasadnienie: Wybrane zadania są łatwe i łatwiejsze niż zadania z puli dla grupy zawodników. Najłatwiejsze zadanie (1228A) jest łatwe do rozwiązywania i jest dla najsłabszego uczestnika. Najtrudniejsze zadanie (1324A) jest trudne, ale jest dla najmocniejszego uczestnika. Zadania są ułożone od najłatwiejszego do najtrudniejszego, co jest kluczowe dla uczciwego kontestu. Tematy są różne, co zapewnia różnorodność i różnorodność w rozwiązywaniu zadań.
+✗ SC-02 (Ci sami pupile + wymyślona osoba, która rozwiązała 4 zadania z puli)
+    zadania: 1228A (800), 996A (800), 1011A (900), 1324A (900)
+    poprawny=✓ nierozwiązane=✓ poziom=✗ rosnąco=✓ rozrzut=✗ uzasadnienie=✓
+    uzasadnienie: Wybrane zadania są łatwe i łatwiejsze niż zadania z puli, które rozwiązali już uczestnicy. Zadania są ułożone od najłatwiejszego do najtrudniejszego, co jest kluczowe dla uczciwego kontestu. Tematy są różne, co zapewnia różnorodność i różnorodność w rozwiązywaniu zadań. Najłatwiejsze zadanie (1228A) jest dla najsłabszego uczestnika, a najtrudniejsze (1324A) jest wyzwaniem dla najmocniejszego. Te zadania pomogą uczestnikom zwiększyć swoją umiejętności i poziom rozwiązywania zadań.
+✗ SC-03 (Duży rozrzut poziomów: newbie, pupil i expert)
+    zadania: 1228A (800), 996A (800), 1011A (900), 1324A (900)
+    poprawny=✓ nierozwiązane=✗ poziom=✓ rosnąco=✓ rozrzut=✗ uzasadnienie=✓
+    uzasadnienie: Wybrane zadania są łatwe i łatwiejsze niż zadania z puli, które rozwiązałoby najsłabszy uczestnik. Zadania są również różnorodne w tematach, co pomaga rozwiązać je w różnym stylu. Najłatwiejsze zadanie (1228A) jest dla najsłabszego uczestnika, a najtrudniejsze (1324A) jest wyzwaniem dla najmocniejszego. Dodatkowo, zadania są ułożone od najłatwiejszego do najtrudniejszego, co pomaga uczestnikom rozwiązać je w porządku.
+✗ SC-04 (Słaba grupa (900-1100), część łatwych zadań już rozwiązana)
+    zadania: 1228A (800), 996A (800), 1011A (900), 1324A (900)
+    poprawny=✓ nierozwiązane=✗ poziom=✓ rosnąco=✓ rozrzut=✗ uzasadnienie=✓
+    uzasadnienie: Wybrane zadania są łatwe i łatwiejsze niż zadania, które rozwiązałoby najsłabszy uczestnik. Zadania są również różne i różnorodne w tematach, co pomaga uczestnikom rozwiązać je w różnym stylu. Najłatwiejsze zadanie (1228A) jest dla najsłabszego uczestnika, a najtrudniejsze (1324A) jest wyzwaniem dla najmocniejszego. Dodatkowo, zadania są ułożone od najłatwiejszego do najtrudniejszego, co pomaga uczestnikom zrozumieć rozwój ich umiejętności.
+✗ SC-05 (Mocniejsza grupa (1371-1850), część trudniejszych zadań już rozwiązana)
+    zadania: 1228A (800), 996A (800), 1011A (900), 1324A (900)
+    poprawny=✓ nierozwiązane=✓ poziom=✗ rosnąco=✓ rozrzut=✗ uzasadnienie=✓
+    uzasadnienie: Wybrane zadania są łatwe i łatwiejsze niż zadania z puli dla grupy zawodników. Najłatwiejsze zadanie (1228A) jest dla najsłabszego uczestnika, a najtrudniejsze (1324A) jest wyzwaniem dla najmocniejszego. Zadania są ułożone od najłatwiejszego do najtrudniejszego, co pomaga uczestnikom rozwiązać je w porządku. Tematy są różne, co zapewnia różnorodność i różnorodność w rozwiązywaniu zadań.
+Uczciwe contesty: 0/5
+
+Wyniki zapisano w /home/jan/Dokumenty/AgenciAIDotnet/algobot-ai-agents-mini/experiments/lab03-models-and-prompting/results
+
+Model: gemma4:e4b
+✗ SC-01 (Trzech prawdziwych pupili z CF, nikt nie rozwiązał zadań z puli)
+    zadania: 1228A (800), 1011A (900), 6C (1200), 2126E (1400)
+    poprawny=✓ nierozwiązane=✓ poziom=✗ rosnąco=✓ rozrzut=✓ uzasadnienie=✓
+    uzasadnienie: Wybrano zadania tworzące płynną krzywą trudności, zaczynając od prostego problemu implementacyjnego (800) i kończąc na wyzwaniu z teorii liczb (1400). Ta struktura zapewnia, że najsłabszy uczestnik ma szansę na pierwsze punkty, podczas gdy najmocniejszy będzie musiał zmierzyć się z zaawansowanym problemem matematycznym. Tematy są zróżnicowane: od implementacji, przez algorytmy zachłanne (greedy), aż po teorię liczb.
+✗ SC-02 (Ci sami pupile + wymyślona osoba, która rozwiązała 4 zadania z puli)
+    zadania: 1228A (800), 1011A (900), 1512D (1200), 2126E (1400)
+    poprawny=✓ nierozwiązane=✓ poziom=✗ rosnąco=✓ rozrzut=✓ uzasadnienie=✓
+    uzasadnienie: Wybrano cztery zadania o rosnącej trudności, zaczynając od 1228A (800) jako przystępnego wprowadzenia dla najsłabszego uczestnika. Następnie, 1011A (900) wprowadza element algorytmiki opartej na sortowaniu i greedy, a 1512D (1200) stanowi wyzwanie konstrukcyjne. Najtrudniejsze zadanie, 2126E (1400), wymaga zaawansowanej wiedzy z teorii liczb, idealnie testując najmocniejszych zawodników. Wszystkie zadania są nowe dla wszystkich uczestników, zapewniając uczciwy start.
+✓ SC-03 (Duży rozrzut poziomów: newbie, pupil i expert)
+    zadania: 1011A (900), 1760D (1000), 2181A (1300), 203C (1400)
+    poprawny=✓ nierozwiązane=✓ poziom=✓ rosnąco=✓ rozrzut=✓ uzasadnienie=✓
+    uzasadnienie: Wybrane zadania są nowe dla wszystkich uczestników, co zapewnia uczciwy start. Contest rozpoczyna się od 1011A (900), które jest osiągalne dla najsłabszego zawodnika, a kończy na 203C (1400), stanowiącym wyzwanie dla najsilniejszego. Ułożenie od najłatwiejszego do najtrudniejszego jest zachowane, a tematyka obejmuje algorytmy zachłanne, dwupunktowe, wyszukiwanie binarne i teorię liczb.
+✗ SC-04 (Słaba grupa (900-1100), część łatwych zadań już rozwiązana)
+    zadania: 712B (1100), 432B (1200), 2181A (1300), 2126E (1400)
+    poprawny=✓ nierozwiązane=✓ poziom=✗ rosnąco=✓ rozrzut=✓ uzasadnienie=✓
+    uzasadnienie: Wybrano cztery zadania, które zapewniają płynną progresję trudności, zaczynając od 712B (1100) i kończąc na 2126E (1400). Zadania te są unikalne dla każdego uczestnika, a ich tematyka jest zróżnicowana – obejmują implementację na ciągach, algorytmy zachłanne, wyszukiwanie binarne oraz teorię liczb. Taka struktura pozwala najsłabszemu uczestnikowi na rozwiązanie pierwszych zadań, podczas gdy najmocniejszy będzie musiał zmierzyć się z wyzwaniem na końcu.
+✗ SC-05 (Mocniejsza grupa (1371-1850), część trudniejszych zadań już rozwiązana)
+    zadania: 1228A (800), 1475A (900), 712B (1100), 2072C (1200)
+    poprawny=✓ nierozwiązane=✓ poziom=✗ rosnąco=✓ rozrzut=✓ uzasadnienie=✓
+    uzasadnienie: Wybrano cztery zadania o różnorodnych tematach (brute force, teoria liczb, implementacja, bitmasks), aby zapewnić uczciwy contest. Zakres trudności (800 do 1200) jest odpowiedni dla grupy, gdzie najsłabszy uczestnik (jkssss) ma szansę na rozwiązanie pierwszego zadania, a najmocniejszy (marek) będzie musiał zmierzyć się z wyzwaniem w ostatnim problemie. Wszystkie zadania są nowe dla wszystkich uczestników, co gwarantuje sprawiedliwość.
+Uczciwe contesty: 1/5
+
+Wyniki zapisano w /home/jan/Dokumenty/AgenciAIDotnet/algobot-ai-agents-mini/experiments/lab03-models-and-prompting/results

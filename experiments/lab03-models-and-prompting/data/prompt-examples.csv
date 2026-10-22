@@ -1,0 +1,6 @@
+id,message,mode,rating_min,rating_max,topic
+EX-001,Daj zadanie z sortowania na 1100,solo,1100,1100,sortings
+EX-002,Zrób contest na poziomie Div 3,contest,1400,1599,null
+EX-003,"Jestem pupilem, chcę coś z matmy",solo,1200,1399,math
+EX-004,Dzień dobry!,null,null,null,null
+EX-005,"Turniej dla koła z grafów, dla Div 1",contest,1900,null,graphs

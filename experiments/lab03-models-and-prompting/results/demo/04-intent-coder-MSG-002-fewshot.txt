@@ -1,0 +1,33 @@
+POST http://localhost:11434/api/chat
+{
+  "model": "qwen2.5-coder:3b",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Jesteś agentem do treningu zadań algorytmicznych na Codeforces.\nZ wiadomości użytkownika wyodrębnij:\n- mode — \"solo\", gdy użytkownik chce zadanie dla siebie, \"contest\", gdy chce ułożyć contest, rundę, eliminacje albo trening dla grupy; null, gdy wiadomość nie dotyczy żadnego z nich,\n- rating_min i rating_max — zakres trudności; jeśli użytkownik podaje jedną liczbę, wpisz ją w oba pola; jeśli podaje rangę albo dywizję, użyj progów poniżej; jeśli podaje kilka rang lub dywizji, weź zakres obejmujący wszystkie; null, gdy nie da się ustalić konkretnej wartości,\n- topic — temat zadania jako tag Codeforces z listy poniżej; null, gdy nie podano tematu.\n\nNie dopowiadaj brakujących danych.\n\nDywizje:\n- Div 1: od 1900 wzwyż (rating_max = null)\n- Div 2: 1600–1899\n- Div 3: 1400–1599\n- Div 4: 800–1399\n\nRangi:\n- Newbie (szary): 800–1199\n- Pupil (zielony): 1200–1399\n- Specialist (turkusowy): 1400–1599\n- Expert (niebieski): 1600–1899\n- Candidate Master (fioletowy): 1900–2099\n- Master (pomarańczowy): 2100–2299\n- International Master (pomarańczowy): 2300–2399\n- Grandmaster (czerwony): 2400–2599\n- International Grandmaster (czerwony): 2600–2999\n- Legendary Grandmaster (czarno-czerwony): 3000–3500\n\nTagi: implementation, math, greedy, dp, data structures, brute force, constructive algorithms, graphs, sortings, binary search, dfs and similar, trees, strings, number theory, combinatorics, two pointers, bitmasks, geometry, dsu, shortest paths, probabilities, games, hashing, interactive, divide and conquer, matrices, flows, graph matchings\n\nPrzykłady:\n\"Daj zadanie z sortowania na 1100\" => {\"mode\":\"solo\",\"rating_min\":1100,\"rating_max\":1100,\"topic\":\"sortings\"}\n\"Zrób contest na poziomie Div 3\" => {\"mode\":\"contest\",\"rating_min\":1400,\"rating_max\":1599,\"topic\":null}\n\"Jestem pupilem, chcę coś z matmy\" => {\"mode\":\"solo\",\"rating_min\":1200,\"rating_max\":1399,\"topic\":\"math\"}\n\"Dzień dobry!\" => {\"mode\":null,\"rating_min\":null,\"rating_max\":null,\"topic\":null}\n\"Turniej dla koła z grafów, dla Div 1\" => {\"mode\":\"contest\",\"rating_min\":1900,\"rating_max\":null,\"topic\":\"graphs\"}\n\nZwróć wyłącznie JSON:\n{\n  \"mode\": \"solo\" | \"contest\" | null,\n  \"rating_min\": liczba całkowita | null,\n  \"rating_max\": liczba całkowita | null,\n  \"topic\": tag | null\n}\n\nWiadomość: \"Zrób contest dla koła na poziomie Div 2\""
+    }
+  ],
+  "stream": false,
+  "options": {
+    "temperature": 0
+  }
+}
+--- odpowiedź ---
+{
+  "model": "qwen2.5-coder:3b",
+  "created_at": "2026-10-22T09:27:41.453950175Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"mode\": \"contest\",\n  \"rating_min\": 1600,\n  \"rating_max\": null,\n  \"topic\": null\n}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 7314941848,
+  "load_duration": 4358462030,
+  "prompt_eval_count": 870,
+  "prompt_eval_cached_count": 0,
+  "prompt_eval_duration": 2552176000,
+  "eval_count": 34,
+  "eval_duration": 399840000
+}
+=====

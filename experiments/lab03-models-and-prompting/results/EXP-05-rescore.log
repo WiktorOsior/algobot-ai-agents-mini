@@ -1,0 +1,50 @@
+
+Model: gemma3:4b
+✗ SC-01 6C (1200), 1228A (800), 2210C1 (1200), 1324A (900)  poprawny=✓ nierozwiązane=✓ start=✓ koniec=✗ rozrzut=✓ tematy=✗ uzasadnienie=✓
+✗ SC-02 1228A (800), 996A (800), 1011A (900), 1760D (1000)  poprawny=✓ nierozwiązane=✓ start=✓ koniec=✗ rozrzut=✓ tematy=✓ uzasadnienie=✓
+✗ SC-03 1228A (800), 1011A (900), 1324A (900), 1760D (1000)  poprawny=✓ nierozwiązane=✗ start=✓ koniec=✗ rozrzut=✓ tematy=✓ uzasadnienie=✓
+✗ SC-04 1228A (800), 1011A (900), 1324A (900), 1475A (900)  poprawny=✓ nierozwiązane=✗ start=✓ koniec=✗ rozrzut=✗ tematy=✗ uzasadnienie=✓
+✗ SC-05 6 (spoza puli), 234C (1300), 2181A (1300), 1011A (900)  poprawny=✗ nierozwiązane=✗ start=✗ koniec=✗ rozrzut=✗ tematy=✗ uzasadnienie=✓
+Dobre contesty: 0/5
+
+Model: qwen3:4b
+✗ SC-01 1228A (800), 1011A (900), 1760D (1000), 1512D (1200)  poprawny=✓ nierozwiązane=✓ start=✓ koniec=✗ rozrzut=✓ tematy=✓ uzasadnienie=✓
+✗ SC-02 1228A (800), 1011A (900), 1760D (1000), 1846E1 (1300)  poprawny=✓ nierozwiązane=✗ start=✓ koniec=✓ rozrzut=✓ tematy=✗ uzasadnienie=✓
+✗ SC-03 1228A (800), 1011A (900), 1512D (1200), 2126E (1400)  poprawny=✓ nierozwiązane=✗ start=✓ koniec=✓ rozrzut=✓ tematy=✓ uzasadnienie=✓
+✗ SC-04 1011A (900), 1324A (900), 1760D (1000), 2072C (1200)  poprawny=✓ nierozwiązane=✗ start=✓ koniec=✓ rozrzut=✓ tematy=✓ uzasadnienie=✓
+✗ SC-05 1228A (800), 1011A (900), 1760D (1000), 1846E1 (1300)  poprawny=✓ nierozwiązane=✗ start=✗ koniec=✓ rozrzut=✓ tematy=✗ uzasadnienie=✓
+Dobre contesty: 0/5
+
+Model: qwen3:4b-instruct
+✓ SC-01 1228A (800), 1011A (900), 1760D (1000), 2181A (1300)  poprawny=✓ nierozwiązane=✓ start=✓ koniec=✓ rozrzut=✓ tematy=✓ uzasadnienie=✓
+✓ SC-02 1228A (800), 1011A (900), 1760D (1000), 2181A (1300)  poprawny=✓ nierozwiązane=✓ start=✓ koniec=✓ rozrzut=✓ tematy=✓ uzasadnienie=✓
+✗ SC-03 1011A (900), 712B (1100), 1512D (1200), 2181A (1300)  poprawny=✓ nierozwiązane=✓ start=✓ koniec=✗ rozrzut=✓ tematy=✗ uzasadnienie=✓
+✗ SC-04 1011A (900), 712B (1100), 2072C (1200), 2181A (1300)  poprawny=✓ nierozwiązane=✗ start=✓ koniec=✓ rozrzut=✓ tematy=✗ uzasadnienie=✓
+✗ SC-05 1228A (800), 712B (1100), 2072C (1200), 1846E1 (1300)  poprawny=✓ nierozwiązane=✗ start=✗ koniec=✓ rozrzut=✓ tematy=✗ uzasadnienie=✓
+Dobre contesty: 2/5
+
+Model: qwen2.5-coder:3b
+✗ SC-01 1228A (800), 996A (800), 1011A (900), 1324A (900)  poprawny=✓ nierozwiązane=✓ start=✓ koniec=✗ rozrzut=✗ tematy=✓ uzasadnienie=✓
+✗ SC-02 1228A (800), 996A (800), 1011A (900), 1324A (900)  poprawny=✓ nierozwiązane=✓ start=✓ koniec=✗ rozrzut=✗ tematy=✓ uzasadnienie=✓
+✗ SC-03 1228A (800), 996A (800), 1011A (900), 1324A (900)  poprawny=✓ nierozwiązane=✗ start=✓ koniec=✗ rozrzut=✗ tematy=✓ uzasadnienie=✓
+✗ SC-04 1228A (800), 996A (800), 1011A (900), 1324A (900)  poprawny=✓ nierozwiązane=✗ start=✓ koniec=✗ rozrzut=✗ tematy=✓ uzasadnienie=✓
+✗ SC-05 1228A (800), 996A (800), 1011A (900), 1324A (900)  poprawny=✓ nierozwiązane=✓ start=✗ koniec=✗ rozrzut=✗ tematy=✓ uzasadnienie=✓
+Dobre contesty: 0/5
+
+Model: openai/gemma-4-31b:Q8_K_XL
+✓ SC-01 996A (800), 1760D (1000), 2072C (1200), 2126E (1400)  poprawny=✓ nierozwiązane=✓ start=✓ koniec=✓ rozrzut=✓ tematy=✓ uzasadnienie=✓
+✓ SC-02 996A (800), 712B (1100), 2072C (1200), 2126E (1400)  poprawny=✓ nierozwiązane=✓ start=✓ koniec=✓ rozrzut=✓ tematy=✓ uzasadnienie=✓
+✓ SC-03 1324A (900), 1760D (1000), 1512D (1200), 203C (1400)  poprawny=✓ nierozwiązane=✓ start=✓ koniec=✓ rozrzut=✓ tematy=✓ uzasadnienie=✓
+✓ SC-04 712B (1100), 1512D (1200), 234C (1300), 2126E (1400)  poprawny=✓ nierozwiązane=✓ start=✓ koniec=✓ rozrzut=✓ tematy=✓ uzasadnienie=✓
+✗ SC-05 1228A (800), 1475A (900), 712B (1100), 2072C (1200)  poprawny=✓ nierozwiązane=✓ start=✗ koniec=✓ rozrzut=✓ tematy=✓ uzasadnienie=✓
+Dobre contesty: 4/5
+
+Model: gemma4:e4b
+✓ SC-01 1228A (800), 1011A (900), 6C (1200), 2126E (1400)  poprawny=✓ nierozwiązane=✓ start=✓ koniec=✓ rozrzut=✓ tematy=✓ uzasadnienie=✓
+✓ SC-02 1228A (800), 1011A (900), 1512D (1200), 2126E (1400)  poprawny=✓ nierozwiązane=✓ start=✓ koniec=✓ rozrzut=✓ tematy=✓ uzasadnienie=✓
+✗ SC-03 1011A (900), 1760D (1000), 2181A (1300), 203C (1400)  poprawny=✓ nierozwiązane=✓ start=✓ koniec=✓ rozrzut=✓ tematy=✗ uzasadnienie=✓
+✗ SC-04 712B (1100), 432B (1200), 2181A (1300), 2126E (1400)  poprawny=✓ nierozwiązane=✓ start=✓ koniec=✓ rozrzut=✓ tematy=✗ uzasadnienie=✓
+✗ SC-05 1228A (800), 1475A (900), 712B (1100), 2072C (1200)  poprawny=✓ nierozwiązane=✓ start=✗ koniec=✓ rozrzut=✓ tematy=✓ uzasadnienie=✓
+Dobre contesty: 2/5
+
+Wyniki zapisano w /home/jan/Dokumenty/AgenciAIDotnet/algobot-ai-agents-mini/experiments/lab03-models-and-prompting/results

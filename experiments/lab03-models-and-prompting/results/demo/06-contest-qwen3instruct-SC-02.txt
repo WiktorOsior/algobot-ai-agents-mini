@@ -1,0 +1,51 @@
+POST http://localhost:11434/api/chat
+{
+  "model": "qwen3:4b-instruct",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Jesteś agentem, który układa contesty treningowe z zadań Codeforces dla grupy zawodników.\nWybierz dokładnie 4 zadania z puli tak, żeby contest był uczciwy:\n- żaden uczestnik nie rozwiązał wcześniej żadnego z wybranych zadań,\n- trudność pasuje do poziomu grupy: najłatwiejsze zadanie da się zrobić dla najsłabszego uczestnika, a najtrudniejsze jest wyzwaniem dla najmocniejszego,\n- zadania są ułożone od najłatwiejszego do najtrudniejszego,\n- tematy są możliwie różne.\nUzasadnij wybór w 2–4 zdaniach.\n\nUczestnicy:\n- szeldon555: rating 1216, rozwiązane zadania z puli: brak\n- bstopczynski: rating 1248, rozwiązane zadania z puli: brak\n- jkssss: rating 1371, rozwiązane zadania z puli: brak\n- ania_k: rating 1310, rozwiązane zadania z puli: 6C, 508B, 203C, 1846E1\n\nPula zadań (id | rating | tagi | nazwa):\n- 1228A | rating 800 | brute force, implementation | Distinct Digits\n- 996A | rating 800 | dp, greedy | Hit the Lottery\n- 1011A | rating 900 | greedy, implementation, sortings | Stages\n- 1324A | rating 900 | implementation, number theory | Yet Another Tetris Problem\n- 1475A | rating 900 | math, number theory | Odd Divisor\n- 648A | rating 900 | constructive algorithms, implementation | Наибольший подъем\n- 1760D | rating 1000 | implementation, two pointers | Challenging Valleys\n- 712B | rating 1100 | implementation, strings | Memory and Trident\n- 1512D | rating 1200 | constructive algorithms, data structures, greedy | Corrupted Array\n- 2072C | rating 1200 | bitmasks, constructive algorithms, greedy | Creating Keys for StORages Has Become My Main Skill\n- 2210C1 | rating 1200 | greedy, number theory | A Simple GCD Problem (Easy Version)\n- 432B | rating 1200 | brute force, greedy, implementation | Football Kit\n- 6C | rating 1200 | greedy, two pointers | Alice, Bob and Chocolate\n- 1846E1 | rating 1300 | brute force, implementation, math | Rudolf and Snowflakes (simple version)\n- 2181A | rating 1300 | binary search, math, strings | Alphabet City\n- 234C | rating 1300 | dp, implementation | Weather\n- 508B | rating 1300 | greedy, math, strings | Anton and currency you all know\n- 203C | rating 1400 | greedy, sortings | Photographer\n- 2126E | rating 1400 | math, number theory | G-C-D, Unlucky!\n- 961C | rating 1400 | bitmasks, brute force, implementation | Chessboard\n\nZwróć wyłącznie JSON:\n{\n  \"problems\": [\"id\", ...],\n  \"justification\": \"uzasadnienie\"\n}"
+    }
+  ],
+  "stream": false,
+  "format": {
+    "type": "object",
+    "properties": {
+      "problems": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "justification": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "problems",
+      "justification"
+    ]
+  },
+  "options": {
+    "temperature": 0
+  }
+}
+--- odpowiedź ---
+{
+  "model": "qwen3:4b-instruct",
+  "created_at": "2026-10-22T09:28:11.465591149Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"justification\": \"Ania_k już rozwiązała 6C, 508B, 203C i 1846E1, więc te zadania są wykluczone. Najniższy rating uczestników to 1216, więc zadania o ratingach poniżej 1200 są za łatwe, a zadania o ratingach powyżej 1400 są za trudne. Wybieram zadania o ratingach 900–1300 z różnymi tematami: 1011A (greedy, sortings), 1475A (math, number theory), 2181A (binary search, strings) i 2126E (math, number theory). Zadania są nieprzecięczone, ułożone od łatwego do trudnego, a tematy są różne.\",\n  \"problems\": [\"1011A\", \"1475A\", \"2181A\", \"2126E\"]\n}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 13831328523,
+  "load_duration": 6474844541,
+  "prompt_eval_count": 849,
+  "prompt_eval_cached_count": 0,
+  "prompt_eval_duration": 3490831000,
+  "eval_count": 246,
+  "eval_duration": 3850741000
+}
+=====

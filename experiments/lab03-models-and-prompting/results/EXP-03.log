@@ -1,0 +1,201 @@
+
+Temperature: 0
+MSG-001 "Daj mi zadanie z binary searcha, mam 1216 ratingu" => różnych odpowiedzi: 1 (oczekiwano: mode=solo, rating=1216..1216, topic=binary search)
+    3x mode=solo, rating=1216..1216, topic=binary search
+MSG-002 "Zrób contest dla koła na poziomie Div 2" => różnych odpowiedzi: 1 (oczekiwano: mode=contest, rating=1600..1899, topic=null)
+    3x mode=contest, rating=1600..1899, topic=null
+MSG-003 "Chcę poćwiczyć dp" => różnych odpowiedzi: 1 (oczekiwano: mode=solo, rating=null..null, topic=dp)
+    3x mode=solo, rating=null..null, topic=dp
+MSG-004 "Daj coś trudniejszego niż ostatnio" => różnych odpowiedzi: 1 (oczekiwano: mode=solo, rating=null..null, topic=null)
+    3x mode=solo, rating=1600..null, topic=null
+MSG-005 "Jestem specialistą, chcę grafy" => różnych odpowiedzi: 1 (oczekiwano: mode=solo, rating=1400..1599, topic=graphs)
+    3x mode=solo, rating=1400..1599, topic=graphs
+MSG-006 "Zorganizuj eliminacje dla 6 osób, wszyscy są zieloni na CF" => różnych odpowiedzi: 1 (oczekiwano: mode=contest, rating=1200..1399, topic=null)
+    3x mode=contest, rating=1200..1399, topic=null
+MSG-007 "Szykuję się do rozmowy rekrutacyjnej, potrzebuję zadań na stringi" => różnych odpowiedzi: 1 (oczekiwano: mode=solo, rating=null..null, topic=strings)
+    3x mode=contest, rating=null..null, topic=strings
+MSG-008 "Ułóż rundę jak Div 4" => różnych odpowiedzi: 1 (oczekiwano: mode=contest, rating=800..1399, topic=null)
+    3x mode=contest, rating=800..1399, topic=null
+MSG-009 "Mam rating 1550 i słabo mi idą dwa wskaźniki" => różnych odpowiedzi: 1 (oczekiwano: mode=solo, rating=1550..1550, topic=two pointers)
+    3x mode=solo, rating=1550..1550, topic=null
+MSG-010 "Hej, co potrafisz?" => różnych odpowiedzi: 1 (oczekiwano: mode=null, rating=null..null, topic=null)
+    3x mode=null, rating=null..null, topic=null
+MSG-011 "Contest z teorii liczb dla expertów" => różnych odpowiedzi: 1 (oczekiwano: mode=contest, rating=1600..1899, topic=number theory)
+    3x mode=contest, rating=1600..1899, topic=number theory
+MSG-012 "Zadanie 1300-1500 z greedy" => różnych odpowiedzi: 1 (oczekiwano: mode=solo, rating=1300..1500, topic=greedy)
+    3x mode=solo, rating=1300..1500, topic=greedy
+MSG-013 "Chcemy z drużyną potrenować przed ICPC, poziom Div 1" => różnych odpowiedzi: 1 (oczekiwano: mode=contest, rating=1900..null, topic=null)
+    3x mode=contest, rating=1900..null, topic=null
+MSG-014 "Jestem szary, daj coś łatwego z implementacji" => różnych odpowiedzi: 1 (oczekiwano: mode=solo, rating=800..1199, topic=implementation)
+    3x mode=solo, rating=800..1199, topic=implementation
+MSG-015 "Nie Div 3, raczej Div 2 — zrób contest" => różnych odpowiedzi: 1 (oczekiwano: mode=contest, rating=1600..1899, topic=null)
+    3x mode=contest, rating=1600..1899, topic=null
+MSG-016 "Daj zadanie z drzew, poziom Div 3 albo Div 4" => różnych odpowiedzi: 1 (oczekiwano: mode=solo, rating=800..1599, topic=trees)
+    3x mode=solo, rating=1400..1599, topic=trees
+MSG-017 "Jestem candidate masterem i chcę kombinatorykę" => różnych odpowiedzi: 1 (oczekiwano: mode=solo, rating=1900..2099, topic=combinatorics)
+    3x mode=solo, rating=1900..2099, topic=combinatorics
+MSG-018 "Załóż contest na 2 godziny" => różnych odpowiedzi: 1 (oczekiwano: mode=contest, rating=null..null, topic=null)
+    3x mode=contest, rating=null..null, topic=null
+MSG-019 "Kolega ma 1400, ja 1200 — zrób nam wspólny contest" => różnych odpowiedzi: 1 (oczekiwano: mode=contest, rating=1200..1400, topic=null)
+    3x mode=contest, rating=1200..1400, topic=null
+MSG-020 "binary search, 1800" => różnych odpowiedzi: 1 (oczekiwano: mode=solo, rating=1800..1800, topic=binary search)
+    3x mode=solo, rating=1800..1800, topic=binary search
+MSG-021 "Wczoraj nie wyszło mi zadanie z geometrii, chcę podobne. Mam 1700" => różnych odpowiedzi: 1 (oczekiwano: mode=solo, rating=1700..1700, topic=geometry)
+    3x mode=solo, rating=1700..1700, topic=geometry
+MSG-022 "Przygotuj eliminacje do drużyny, zawodnicy od pupila do experta" => różnych odpowiedzi: 1 (oczekiwano: mode=contest, rating=1200..1899, topic=null)
+    3x mode=contest, rating=1200..1899, topic=null
+MSG-023 "Daj mi jakieś zadanie" => różnych odpowiedzi: 1 (oczekiwano: mode=solo, rating=null..null, topic=null)
+    3x mode=solo, rating=null..null, topic=null
+MSG-024 "Chcę zadanie z dp, ale nie za trudne, jestem newbie" => różnych odpowiedzi: 1 (oczekiwano: mode=solo, rating=800..1199, topic=dp)
+    3x mode=solo, rating=800..1199, topic=dp
+MSG-025 "Daj zadanie z bitmasek na poziomie mastera" => różnych odpowiedzi: 1 (oczekiwano: mode=solo, rating=2100..2299, topic=bitmasks)
+    3x mode=solo, rating=2100..2299, topic=bitmasks
+Mode accuracy: 96%, Rating accuracy: 92%, Topic accuracy: 96%, Exact match: 84%, poprawny JSON: 75/75, średni czas: 709 ms
+Powtarzalne wiadomości: 25/25
+
+Temperature: 0,5
+MSG-001 "Daj mi zadanie z binary searcha, mam 1216 ratingu" => różnych odpowiedzi: 2 (oczekiwano: mode=solo, rating=1216..1216, topic=binary search)
+    1x mode=solo, rating=1216..null, topic=binary search
+    2x mode=solo, rating=1216..1216, topic=binary search
+MSG-002 "Zrób contest dla koła na poziomie Div 2" => różnych odpowiedzi: 2 (oczekiwano: mode=contest, rating=1600..1899, topic=null)
+    1x mode=contest, rating=1600..null, topic=null
+    2x mode=contest, rating=1600..1899, topic=null
+MSG-003 "Chcę poćwiczyć dp" => różnych odpowiedzi: 1 (oczekiwano: mode=solo, rating=null..null, topic=dp)
+    3x mode=solo, rating=null..null, topic=dp
+MSG-004 "Daj coś trudniejszego niż ostatnio" => różnych odpowiedzi: 3 (oczekiwano: mode=solo, rating=null..null, topic=null)
+    1x mode=solo, rating=1600..null, topic=null
+    1x mode=solo, rating=1400..null, topic=null
+    1x mode=solo, rating=1900..null, topic=null
+MSG-005 "Jestem specialistą, chcę grafy" => różnych odpowiedzi: 1 (oczekiwano: mode=solo, rating=1400..1599, topic=graphs)
+    3x mode=solo, rating=1400..1599, topic=graphs
+MSG-006 "Zorganizuj eliminacje dla 6 osób, wszyscy są zieloni na CF" => różnych odpowiedzi: 1 (oczekiwano: mode=contest, rating=1200..1399, topic=null)
+    3x mode=contest, rating=1200..1399, topic=null
+MSG-007 "Szykuję się do rozmowy rekrutacyjnej, potrzebuję zadań na stringi" => różnych odpowiedzi: 3 (oczekiwano: mode=solo, rating=null..null, topic=strings)
+    1x mode=contest, rating=null..null, topic=strings
+    1x mode=contest, rating=800..2599, topic=strings
+    1x mode=contest, rating=800..null, topic=strings
+MSG-008 "Ułóż rundę jak Div 4" => różnych odpowiedzi: 1 (oczekiwano: mode=contest, rating=800..1399, topic=null)
+    3x mode=contest, rating=800..1399, topic=null
+MSG-009 "Mam rating 1550 i słabo mi idą dwa wskaźniki" => różnych odpowiedzi: 3 (oczekiwano: mode=solo, rating=1550..1550, topic=two pointers)
+    1x mode=solo, rating=1550..null, topic=null
+    1x mode=solo, rating=1550..1550, topic=null
+    1x mode=solo, rating=1400..1599, topic=null
+MSG-010 "Hej, co potrafisz?" => różnych odpowiedzi: 2 (oczekiwano: mode=null, rating=null..null, topic=null)
+    2x mode=null, rating=null..null, topic=null
+    1x mode=solo, rating=null..null, topic=null
+MSG-011 "Contest z teorii liczb dla expertów" => różnych odpowiedzi: 2 (oczekiwano: mode=contest, rating=1600..1899, topic=number theory)
+    2x mode=contest, rating=1600..null, topic=number theory
+    1x mode=contest, rating=1600..1899, topic=number theory
+MSG-012 "Zadanie 1300-1500 z greedy" => różnych odpowiedzi: 1 (oczekiwano: mode=solo, rating=1300..1500, topic=greedy)
+    3x mode=solo, rating=1300..1500, topic=greedy
+MSG-013 "Chcemy z drużyną potrenować przed ICPC, poziom Div 1" => różnych odpowiedzi: 1 (oczekiwano: mode=contest, rating=1900..null, topic=null)
+    3x mode=contest, rating=1900..null, topic=null
+MSG-014 "Jestem szary, daj coś łatwego z implementacji" => różnych odpowiedzi: 2 (oczekiwano: mode=solo, rating=800..1199, topic=implementation)
+    2x mode=solo, rating=800..1199, topic=null
+    1x mode=solo, rating=800..1199, topic=implementation
+MSG-015 "Nie Div 3, raczej Div 2 — zrób contest" => różnych odpowiedzi: 2 (oczekiwano: mode=contest, rating=1600..1899, topic=null)
+    1x mode=contest, rating=1600..null, topic=null
+    2x mode=contest, rating=1600..1899, topic=null
+MSG-016 "Daj zadanie z drzew, poziom Div 3 albo Div 4" => różnych odpowiedzi: 3 (oczekiwano: mode=solo, rating=800..1599, topic=trees)
+    1x mode=solo, rating=1400..2599, topic=trees
+    1x mode=contest, rating=1400..null, topic=trees
+    1x mode=contest, rating=1400..1599, topic=trees
+MSG-017 "Jestem candidate masterem i chcę kombinatorykę" => różnych odpowiedzi: 1 (oczekiwano: mode=solo, rating=1900..2099, topic=combinatorics)
+    3x mode=solo, rating=1900..2099, topic=combinatorics
+MSG-018 "Załóż contest na 2 godziny" => różnych odpowiedzi: 1 (oczekiwano: mode=contest, rating=null..null, topic=null)
+    3x mode=contest, rating=null..null, topic=null
+MSG-019 "Kolega ma 1400, ja 1200 — zrób nam wspólny contest" => różnych odpowiedzi: 1 (oczekiwano: mode=contest, rating=1200..1400, topic=null)
+    3x mode=contest, rating=1200..1400, topic=null
+MSG-020 "binary search, 1800" => różnych odpowiedzi: 1 (oczekiwano: mode=solo, rating=1800..1800, topic=binary search)
+    3x mode=solo, rating=1800..1800, topic=binary search
+MSG-021 "Wczoraj nie wyszło mi zadanie z geometrii, chcę podobne. Mam 1700" => różnych odpowiedzi: 2 (oczekiwano: mode=solo, rating=1700..1700, topic=geometry)
+    2x mode=solo, rating=1700..null, topic=geometry
+    1x mode=solo, rating=1700..1700, topic=geometry
+MSG-022 "Przygotuj eliminacje do drużyny, zawodnicy od pupila do experta" => różnych odpowiedzi: 1 (oczekiwano: mode=contest, rating=1200..1899, topic=null)
+    3x mode=contest, rating=1200..1899, topic=null
+MSG-023 "Daj mi jakieś zadanie" => różnych odpowiedzi: 1 (oczekiwano: mode=solo, rating=null..null, topic=null)
+    3x mode=solo, rating=null..null, topic=null
+MSG-024 "Chcę zadanie z dp, ale nie za trudne, jestem newbie" => różnych odpowiedzi: 1 (oczekiwano: mode=solo, rating=800..1199, topic=dp)
+    3x mode=solo, rating=800..1199, topic=dp
+MSG-025 "Daj zadanie z bitmasek na poziomie mastera" => różnych odpowiedzi: 1 (oczekiwano: mode=solo, rating=2100..2299, topic=bitmasks)
+    3x mode=solo, rating=2100..2299, topic=bitmasks
+Mode accuracy: 92%, Rating accuracy: 77%, Topic accuracy: 93%, Exact match: 71%, poprawny JSON: 75/75, średni czas: 611 ms
+Powtarzalne wiadomości: 14/25
+
+Temperature: 1
+MSG-001 "Daj mi zadanie z binary searcha, mam 1216 ratingu" => różnych odpowiedzi: 2 (oczekiwano: mode=solo, rating=1216..1216, topic=binary search)
+    2x mode=solo, rating=1216..1216, topic=binary search
+    1x mode=solo, rating=null..1216, topic=binary search
+MSG-002 "Zrób contest dla koła na poziomie Div 2" => różnych odpowiedzi: 1 (oczekiwano: mode=contest, rating=1600..1899, topic=null)
+    3x mode=contest, rating=1600..1899, topic=null
+MSG-003 "Chcę poćwiczyć dp" => różnych odpowiedzi: 2 (oczekiwano: mode=solo, rating=null..null, topic=dp)
+    2x mode=solo, rating=null..null, topic=dp
+    1x mode=solo, rating=800..3500, topic=dp
+MSG-004 "Daj coś trudniejszego niż ostatnio" => różnych odpowiedzi: 3 (oczekiwano: mode=solo, rating=null..null, topic=null)
+    1x mode=solo, rating=1400..null, topic=null
+    1x mode=solo, rating=1900..null, topic=null
+    1x mode=solo, rating=1600..null, topic=null
+MSG-005 "Jestem specialistą, chcę grafy" => różnych odpowiedzi: 2 (oczekiwano: mode=solo, rating=1400..1599, topic=graphs)
+    1x mode=contest, rating=1400..1599, topic=graphs
+    2x mode=solo, rating=1400..1599, topic=graphs
+MSG-006 "Zorganizuj eliminacje dla 6 osób, wszyscy są zieloni na CF" => różnych odpowiedzi: 1 (oczekiwano: mode=contest, rating=1200..1399, topic=null)
+    3x mode=contest, rating=1200..1399, topic=null
+MSG-007 "Szykuję się do rozmowy rekrutacyjnej, potrzebuję zadań na stringi" => różnych odpowiedzi: 3 (oczekiwano: mode=solo, rating=null..null, topic=strings)
+    1x mode=contest, rating=800..3500, topic=strings
+    1x mode=contest, rating=null..null, topic=strings
+    1x mode=null, rating=null..null, topic=strings
+MSG-008 "Ułóż rundę jak Div 4" => różnych odpowiedzi: 1 (oczekiwano: mode=contest, rating=800..1399, topic=null)
+    3x mode=contest, rating=800..1399, topic=null
+MSG-009 "Mam rating 1550 i słabo mi idą dwa wskaźniki" => różnych odpowiedzi: 2 (oczekiwano: mode=solo, rating=1550..1550, topic=two pointers)
+    2x mode=solo, rating=1400..1599, topic=null
+    1x mode=solo, rating=1550..1550, topic=null
+MSG-010 "Hej, co potrafisz?" => różnych odpowiedzi: 2 (oczekiwano: mode=null, rating=null..null, topic=null)
+    2x mode=solo, rating=null..null, topic=null
+    1x mode=null, rating=null..null, topic=null
+MSG-011 "Contest z teorii liczb dla expertów" => różnych odpowiedzi: 2 (oczekiwano: mode=contest, rating=1600..1899, topic=number theory)
+    2x mode=contest, rating=1600..1899, topic=number theory
+    1x mode=contest, rating=1600..null, topic=number theory
+MSG-012 "Zadanie 1300-1500 z greedy" => różnych odpowiedzi: 1 (oczekiwano: mode=solo, rating=1300..1500, topic=greedy)
+    3x mode=solo, rating=1300..1500, topic=greedy
+MSG-013 "Chcemy z drużyną potrenować przed ICPC, poziom Div 1" => różnych odpowiedzi: 2 (oczekiwano: mode=contest, rating=1900..null, topic=null)
+    1x mode=contest, rating=1400..1900, topic=null
+    2x mode=contest, rating=1900..null, topic=null
+MSG-014 "Jestem szary, daj coś łatwego z implementacji" => różnych odpowiedzi: 2 (oczekiwano: mode=solo, rating=800..1199, topic=implementation)
+    2x mode=solo, rating=800..1199, topic=implementation
+    1x mode=solo, rating=800..null, topic=implementation
+MSG-015 "Nie Div 3, raczej Div 2 — zrób contest" => różnych odpowiedzi: 2 (oczekiwano: mode=contest, rating=1600..1899, topic=null)
+    1x mode=contest, rating=1600..null, topic=null
+    2x mode=contest, rating=1600..1899, topic=null
+MSG-016 "Daj zadanie z drzew, poziom Div 3 albo Div 4" => różnych odpowiedzi: 3 (oczekiwano: mode=solo, rating=800..1599, topic=trees)
+    1x mode=contest, rating=1400..null, topic=trees
+    1x mode=solo, rating=1400..1399, topic=trees
+    1x mode=solo, rating=1400..1599, topic=trees
+MSG-017 "Jestem candidate masterem i chcę kombinatorykę" => różnych odpowiedzi: 2 (oczekiwano: mode=solo, rating=1900..2099, topic=combinatorics)
+    2x mode=solo, rating=1900..2099, topic=combinatorics
+    1x mode=contest, rating=1900..1999, topic=combinatorics
+MSG-018 "Załóż contest na 2 godziny" => różnych odpowiedzi: 1 (oczekiwano: mode=contest, rating=null..null, topic=null)
+    3x mode=contest, rating=null..null, topic=null
+MSG-019 "Kolega ma 1400, ja 1200 — zrób nam wspólny contest" => różnych odpowiedzi: 1 (oczekiwano: mode=contest, rating=1200..1400, topic=null)
+    3x mode=contest, rating=1200..1400, topic=null
+MSG-020 "binary search, 1800" => różnych odpowiedzi: 2 (oczekiwano: mode=solo, rating=1800..1800, topic=binary search)
+    1x mode=solo, rating=1800..1800, topic=binary search
+    2x mode=solo, rating=1800..null, topic=binary search
+MSG-021 "Wczoraj nie wyszło mi zadanie z geometrii, chcę podobne. Mam 1700" => różnych odpowiedzi: 3 (oczekiwano: mode=solo, rating=1700..1700, topic=geometry)
+    1x mode=solo, rating=1700..null, topic=geometry
+    1x mode=solo, rating=1700..null, topic=null
+    1x mode=solo, rating=1700..1700, topic=geometry
+MSG-022 "Przygotuj eliminacje do drużyny, zawodnicy od pupila do experta" => różnych odpowiedzi: 1 (oczekiwano: mode=contest, rating=1200..1899, topic=null)
+    3x mode=contest, rating=1200..1899, topic=null
+MSG-023 "Daj mi jakieś zadanie" => różnych odpowiedzi: 1 (oczekiwano: mode=solo, rating=null..null, topic=null)
+    3x mode=solo, rating=null..null, topic=null
+MSG-024 "Chcę zadanie z dp, ale nie za trudne, jestem newbie" => różnych odpowiedzi: 3 (oczekiwano: mode=solo, rating=800..1199, topic=dp)
+    1x mode=solo, rating=800..1399, topic=dp
+    1x mode=solo, rating=800..1199, topic=dp
+    1x mode=solo, rating=800..1200, topic=dp
+MSG-025 "Daj zadanie z bitmasek na poziomie mastera" => różnych odpowiedzi: 2 (oczekiwano: mode=solo, rating=2100..2299, topic=bitmasks)
+    1x mode=solo, rating=2100..2299, topic=bitmasks
+    2x mode=solo, rating=1900..2099, topic=bitmasks
+Mode accuracy: 89%, Rating accuracy: 68%, Topic accuracy: 95%, Exact match: 60%, poprawny JSON: 75/75, średni czas: 614 ms
+Powtarzalne wiadomości: 8/25
+
+Wyniki zapisano w /home/jan/Dokumenty/AgenciAIDotnet/algobot-ai-agents-mini/experiments/lab03-models-and-prompting/results

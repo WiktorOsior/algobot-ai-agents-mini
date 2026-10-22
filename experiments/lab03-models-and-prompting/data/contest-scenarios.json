@@ -1,0 +1,354 @@
+{
+  "contestSize": 4,
+  "pool": [
+    {
+      "id": "1228A",
+      "name": "Distinct Digits",
+      "rating": 800,
+      "tags": [
+        "brute force",
+        "implementation"
+      ]
+    },
+    {
+      "id": "996A",
+      "name": "Hit the Lottery",
+      "rating": 800,
+      "tags": [
+        "dp",
+        "greedy"
+      ]
+    },
+    {
+      "id": "1011A",
+      "name": "Stages",
+      "rating": 900,
+      "tags": [
+        "greedy",
+        "implementation",
+        "sortings"
+      ]
+    },
+    {
+      "id": "1324A",
+      "name": "Yet Another Tetris Problem",
+      "rating": 900,
+      "tags": [
+        "implementation",
+        "number theory"
+      ]
+    },
+    {
+      "id": "1475A",
+      "name": "Odd Divisor",
+      "rating": 900,
+      "tags": [
+        "math",
+        "number theory"
+      ]
+    },
+    {
+      "id": "648A",
+      "name": "Наибольший подъем",
+      "rating": 900,
+      "tags": [
+        "constructive algorithms",
+        "implementation"
+      ]
+    },
+    {
+      "id": "1760D",
+      "name": "Challenging Valleys",
+      "rating": 1000,
+      "tags": [
+        "implementation",
+        "two pointers"
+      ]
+    },
+    {
+      "id": "712B",
+      "name": "Memory and Trident",
+      "rating": 1100,
+      "tags": [
+        "implementation",
+        "strings"
+      ]
+    },
+    {
+      "id": "1512D",
+      "name": "Corrupted Array",
+      "rating": 1200,
+      "tags": [
+        "constructive algorithms",
+        "data structures",
+        "greedy"
+      ]
+    },
+    {
+      "id": "2072C",
+      "name": "Creating Keys for StORages Has Become My Main Skill",
+      "rating": 1200,
+      "tags": [
+        "bitmasks",
+        "constructive algorithms",
+        "greedy"
+      ]
+    },
+    {
+      "id": "2210C1",
+      "name": "A Simple GCD Problem (Easy Version)",
+      "rating": 1200,
+      "tags": [
+        "greedy",
+        "number theory"
+      ]
+    },
+    {
+      "id": "432B",
+      "name": "Football Kit",
+      "rating": 1200,
+      "tags": [
+        "brute force",
+        "greedy",
+        "implementation"
+      ]
+    },
+    {
+      "id": "6C",
+      "name": "Alice, Bob and Chocolate",
+      "rating": 1200,
+      "tags": [
+        "greedy",
+        "two pointers"
+      ]
+    },
+    {
+      "id": "1846E1",
+      "name": "Rudolf and Snowflakes (simple version)",
+      "rating": 1300,
+      "tags": [
+        "brute force",
+        "implementation",
+        "math"
+      ]
+    },
+    {
+      "id": "2181A",
+      "name": "Alphabet City",
+      "rating": 1300,
+      "tags": [
+        "binary search",
+        "math",
+        "strings"
+      ]
+    },
+    {
+      "id": "234C",
+      "name": "Weather",
+      "rating": 1300,
+      "tags": [
+        "dp",
+        "implementation"
+      ]
+    },
+    {
+      "id": "508B",
+      "name": "Anton and currency you all know",
+      "rating": 1300,
+      "tags": [
+        "greedy",
+        "math",
+        "strings"
+      ]
+    },
+    {
+      "id": "203C",
+      "name": "Photographer",
+      "rating": 1400,
+      "tags": [
+        "greedy",
+        "sortings"
+      ]
+    },
+    {
+      "id": "2126E",
+      "name": "G-C-D, Unlucky!",
+      "rating": 1400,
+      "tags": [
+        "math",
+        "number theory"
+      ]
+    },
+    {
+      "id": "961C",
+      "name": "Chessboard",
+      "rating": 1400,
+      "tags": [
+        "bitmasks",
+        "brute force",
+        "implementation"
+      ]
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "SC-01",
+      "description": "Trzech prawdziwych pupili z CF, nikt nie rozwiązał zadań z puli",
+      "participants": [
+        {
+          "handle": "szeldon555",
+          "rating": 1216,
+          "solved": [],
+          "real": true
+        },
+        {
+          "handle": "bstopczynski",
+          "rating": 1248,
+          "solved": [],
+          "real": true
+        },
+        {
+          "handle": "jkssss",
+          "rating": 1371,
+          "solved": [],
+          "real": true
+        }
+      ]
+    },
+    {
+      "id": "SC-02",
+      "description": "Ci sami pupile + wymyślona osoba, która rozwiązała 4 zadania z puli",
+      "participants": [
+        {
+          "handle": "szeldon555",
+          "rating": 1216,
+          "solved": [],
+          "real": true
+        },
+        {
+          "handle": "bstopczynski",
+          "rating": 1248,
+          "solved": [],
+          "real": true
+        },
+        {
+          "handle": "jkssss",
+          "rating": 1371,
+          "solved": [],
+          "real": true
+        },
+        {
+          "handle": "ania_k",
+          "rating": 1310,
+          "solved": [
+            "6C",
+            "508B",
+            "203C",
+            "1846E1"
+          ],
+          "real": false
+        }
+      ]
+    },
+    {
+      "id": "SC-03",
+      "description": "Duży rozrzut poziomów: newbie, pupil i expert",
+      "participants": [
+        {
+          "handle": "tomek_n",
+          "rating": 950,
+          "solved": [
+            "1228A",
+            "996A",
+            "1475A"
+          ],
+          "real": false
+        },
+        {
+          "handle": "szeldon555",
+          "rating": 1216,
+          "solved": [],
+          "real": true
+        },
+        {
+          "handle": "kasia_ex",
+          "rating": 1650,
+          "solved": [
+            "2126E",
+            "961C",
+            "2072C"
+          ],
+          "real": false
+        }
+      ]
+    },
+    {
+      "id": "SC-04",
+      "description": "Słaba grupa (900-1100), część łatwych zadań już rozwiązana",
+      "participants": [
+        {
+          "handle": "olek",
+          "rating": 900,
+          "solved": [
+            "1228A",
+            "996A",
+            "648A"
+          ],
+          "real": false
+        },
+        {
+          "handle": "zosia",
+          "rating": 1000,
+          "solved": [
+            "1011A",
+            "1324A",
+            "1475A"
+          ],
+          "real": false
+        },
+        {
+          "handle": "piotr",
+          "rating": 1100,
+          "solved": [
+            "1760D"
+          ],
+          "real": false
+        }
+      ]
+    },
+    {
+      "id": "SC-05",
+      "description": "Mocniejsza grupa (1371-1850), część trudniejszych zadań już rozwiązana",
+      "participants": [
+        {
+          "handle": "marek",
+          "rating": 1700,
+          "solved": [
+            "961C",
+            "203C",
+            "2126E",
+            "234C"
+          ],
+          "real": false
+        },
+        {
+          "handle": "ewa",
+          "rating": 1850,
+          "solved": [
+            "2181A",
+            "1846E1",
+            "508B",
+            "1512D"
+          ],
+          "real": false
+        },
+        {
+          "handle": "jkssss",
+          "rating": 1371,
+          "solved": [],
+          "real": true
+        }
+      ]
+    }
+  ]
+}

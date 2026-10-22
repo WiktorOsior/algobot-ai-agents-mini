@@ -1,0 +1,9 @@
+# Treści zadań z Codeforces (prawa autorskie Codeforces i autorów zadań)
+data/codeforces/
+
+# Pliki kompilacji .NET
+bin/
+obj/
+
+# Ustawienia IDE (Rider / IntelliJ)
+.idea/

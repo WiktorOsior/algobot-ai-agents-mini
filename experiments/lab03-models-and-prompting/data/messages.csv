@@ -1,0 +1,26 @@
+id,message,mode,rating_min,rating_max,topic
+MSG-001,"Daj mi zadanie z binary searcha, mam 1216 ratingu",solo,1216,1216,binary search
+MSG-002,Zrób contest dla koła na poziomie Div 2,contest,1600,1899,null
+MSG-003,Chcę poćwiczyć dp,solo,null,null,dp
+MSG-004,Daj coś trudniejszego niż ostatnio,solo,null,null,null
+MSG-005,"Jestem specialistą, chcę grafy",solo,1400,1599,graphs
+MSG-006,"Zorganizuj eliminacje dla 6 osób, wszyscy są zieloni na CF",contest,1200,1399,null
+MSG-007,"Szykuję się do rozmowy rekrutacyjnej, potrzebuję zadań na stringi",solo,null,null,strings
+MSG-008,Ułóż rundę jak Div 4,contest,800,1399,null
+MSG-009,Mam rating 1550 i słabo mi idą dwa wskaźniki,solo,1550,1550,two pointers
+MSG-010,"Hej, co potrafisz?",null,null,null,null
+MSG-011,Contest z teorii liczb dla expertów,contest,1600,1899,number theory
+MSG-012,Zadanie 1300-1500 z greedy,solo,1300,1500,greedy
+MSG-013,"Chcemy z drużyną potrenować przed ICPC, poziom Div 1",contest,1900,null,null
+MSG-014,"Jestem szary, daj coś łatwego z implementacji",solo,800,1199,implementation
+MSG-015,"Nie Div 3, raczej Div 2 — zrób contest",contest,1600,1899,null
+MSG-016,"Daj zadanie z drzew, poziom Div 3 albo Div 4",solo,800,1599,trees
+MSG-017,Jestem candidate masterem i chcę kombinatorykę,solo,1900,2099,combinatorics
+MSG-018,Załóż contest na 2 godziny,contest,null,null,null
+MSG-019,"Kolega ma 1400, ja 1200 — zrób nam wspólny contest",contest,1200,1400,null
+MSG-020,"binary search, 1800",solo,1800,1800,binary search
+MSG-021,"Wczoraj nie wyszło mi zadanie z geometrii, chcę podobne. Mam 1700",solo,1700,1700,geometry
+MSG-022,"Przygotuj eliminacje do drużyny, zawodnicy od pupila do experta",contest,1200,1899,null
+MSG-023,Daj mi jakieś zadanie,solo,null,null,null
+MSG-024,"Chcę zadanie z dp, ale nie za trudne, jestem newbie",solo,800,1199,dp
+MSG-025,Daj zadanie z bitmasek na poziomie mastera,solo,2100,2299,bitmasks

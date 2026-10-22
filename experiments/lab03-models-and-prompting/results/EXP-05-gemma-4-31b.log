@@ -1,0 +1,25 @@
+
+Model: openai/gemma-4-31b:Q8_K_XL
+✗ SC-01 (Trzech prawdziwych pupili z CF, nikt nie rozwiązał zadań z puli)
+    zadania: 996A (800), 1760D (1000), 2072C (1200), 2126E (1400)
+    poprawny=✓ nierozwiązane=✓ poziom=✗ rosnąco=✓ rozrzut=✓ uzasadnienie=✓
+    uzasadnienie: Zestaw obejmuje bardzo różnorodne tematy: DP, two pointers, bitmaski oraz teorię liczb. Trudność zadań rośnie od 800 do 1400 punktów, co zapewnia dostępność dla najsłabszego uczestnika i odpowiednie wyzwanie dla najsilniejszego.
+✗ SC-02 (Ci sami pupile + wymyślona osoba, która rozwiązała 4 zadania z puli)
+    zadania: 996A (800), 712B (1100), 2072C (1200), 2126E (1400)
+    poprawny=✓ nierozwiązane=✓ poziom=✗ rosnąco=✓ rozrzut=✓ uzasadnienie=✓
+    uzasadnienie: Zestaw oferuje progresywny wzrost trudności (800, 1100, 1200, 1400), co zapewnia dostępność dla najsłabszego uczestnika i stanowi wyzwanie dla najmocniejszego. Tematyka jest zróżnicowana: programowanie dynamiczne, operacje na stringach, maski bitowe oraz teoria liczb. Wybrane zadania nie zostały wcześniej rozwiązane przez żadnego z uczestników.
+✓ SC-03 (Duży rozrzut poziomów: newbie, pupil i expert)
+    zadania: 1324A (900), 1760D (1000), 1512D (1200), 203C (1400)
+    poprawny=✓ nierozwiązane=✓ poziom=✓ rosnąco=✓ rozrzut=✓ uzasadnienie=✓
+    uzasadnienie: Zadania zostały dobrane tak, aby żaden uczestnik nie rozwiązał ich wcześniej, a ich trudność (900, 1000, 1200, 1400) stopniowo rośnie, będąc dostępnym dla tomka_n i stanowiąc wyzwanie dla kasia_ex. Wybrane problemy reprezentują bardzo różnorodne tematy: teorię liczb, techniki dwóch wskaźników, algorytmy konstrukcyjne oraz algorytmy zachłanne z sortowaniem.
+✗ SC-04 (Słaba grupa (900-1100), część łatwych zadań już rozwiązana)
+    zadania: 712B (1100), 1512D (1200), 234C (1300), 2126E (1400)
+    poprawny=✓ nierozwiązane=✓ poziom=✗ rosnąco=✓ rozrzut=✓ uzasadnienie=✓
+    uzasadnienie: Wybrałem zadania, których żaden z uczestników wcześniej nie rozwiązał, zaczynając od najłatwiejszego dostępnego (1100) i kończąc na wymagającym wyzwaniu (1400). Trudność rośnie stopniowo, a tematyka jest zróżnicowana: obejmuje stringi, algorytmy konstrukcyjne, programowanie dynamiczne oraz teorię liczb.
+✗ SC-05 (Mocniejsza grupa (1371-1850), część trudniejszych zadań już rozwiązana)
+    zadania: 1228A (800), 1475A (900), 712B (1100), 2072C (1200)
+    poprawny=✓ nierozwiązane=✓ poziom=✗ rosnąco=✓ rozrzut=✓ uzasadnienie=✓
+    uzasadnienie: Wybrane zadania mają zróżnicowaną tematykę (brute force, teoria liczb, stringi, maski bitowe) i rosnący poziom trudności. Żaden uczestnik nie rozwiązał tych zadań wcześniej, a zakres ratingów (800-1200) jest najlepiej dopasowany do możliwości grupy w ramach dostępnej puli.
+Uczciwe contesty: 1/5
+
+Wyniki zapisano w /home/jan/Dokumenty/AgenciAIDotnet/algobot-ai-agents-mini/experiments/lab03-models-and-prompting/results
