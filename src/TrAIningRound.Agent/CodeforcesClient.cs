@@ -10,7 +10,7 @@ public class CodeforcesClient
 
     public async Task<CfUser?> GetUserInfo(string handle)
     {
-        var response = await _http.GetAsync($"user.info?handles={Uri.EscapeDataString(handle)}");
+        var response = await _http.GetAsync($"user.info?handles={Uri.EscapeDataString(handle)}&lang=en");
         var body = await response.Content.ReadFromJsonAsync<CfResponse<List<CfUser>>>();
 
         if (body is null || body.Status != "OK" || body.Result is null)
@@ -25,7 +25,7 @@ public class CodeforcesClient
         if (_submissionsCache.TryGetValue(key, out var cached))
             return cached;
 
-        var response = await _http.GetAsync($"user.status?handle={Uri.EscapeDataString(handle)}");
+        var response = await _http.GetAsync($"user.status?handle={Uri.EscapeDataString(handle)}&lang=en");
         var body = await response.Content.ReadFromJsonAsync<CfResponse<List<CfSubmission>>>();
 
         if (body is null || body.Status != "OK" || body.Result is null)
@@ -49,7 +49,7 @@ public class CodeforcesClient
 
     public async Task<List<CfProblem>> GetAllProblems()
     {
-        var body = await _http.GetFromJsonAsync<CfResponse<CfProblemset>>("problemset.problems");
+        var body = await _http.GetFromJsonAsync<CfResponse<CfProblemset>>("problemset.problems?lang=en");
 
         if (body is null || body.Status != "OK" || body.Result is null)
             throw new HttpRequestException("Codeforces nie zwrócił listy zadań.");
