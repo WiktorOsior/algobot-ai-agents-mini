@@ -22,7 +22,7 @@ var store = new ProblemStore();
 store.Load();
 
 var useRemote = args.Contains("--remote");
-var model = args.FirstOrDefault(a => !a.StartsWith("--")) ?? (useRemote ? "bielik_11b" : "qwen3:4b-instruct");
+var model = args.FirstOrDefault(a => !a.StartsWith("--")) ?? (useRemote ? "GLM-5.2" : "qwen3:4b-instruct");
 
 IChatClient baseClient;
 if (useRemote)

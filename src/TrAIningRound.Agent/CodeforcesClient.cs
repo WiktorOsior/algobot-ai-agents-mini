@@ -66,5 +66,8 @@ public record CfProblemset(List<CfProblem> Problems);
 public record CfProblem(int? ContestId, string Index, string Name, int? Rating, List<string> Tags)
 {
     public string Id => $"{ContestId}{Index}";
-    public string Url => $"https://codeforces.com/problemset/problem/{ContestId}/{Index}";
+    // Contesty o numerze od 100000 to gym, mają inny adres niż zwykłe zadania.
+    public string Url => ContestId >= 100000
+        ? $"https://codeforces.com/gym/{ContestId}/problem/{Index}"
+        : $"https://codeforces.com/problemset/problem/{ContestId}/{Index}";
 }

@@ -27,11 +27,13 @@ public class AgentTools(CodeforcesClient cf, ProblemStore store)
         }
     }
     [Description("Szuka zadań w lokalnej bazie zadań Codeforces. Pomija zadania już rozwiązane przez użytkownika.")]
+    
     public async Task<string> SearchProblems(
         [Description("Minimalny rating zadania, np. 1100")] int minRating,
         [Description("Maksymalny rating zadania, np. 1300")] int maxRating,
         [Description("Tagi Codeforces po angielsku, np. dp, greedy, graphs, math, binary search, strings. Pusta lista = dowolny temat.")] string[] tags,
-        [Description("Handle użytkownika podany w rozmowie. Nigdy go nie zgaduj, jeśli go nie znasz, najpierw zapytaj użytkownika.")] string handle)
+        [Description("Handle użytkownika podany w rozmowie. Nigdy go nie zgaduj, jeśli go nie znasz, najpierw zapytaj użytkownika.")] string handle,
+        [Description("Ile zadań zwrócić. Domyślnie 1, więcej tylko gdy użytkownik wprost o to prosi.")] int count = 1)
     {
         Console.WriteLine($"[tool] search_problems({minRating}-{maxRating}, [{string.Join(", ", tags)}], {handle})");
         if (string.IsNullOrWhiteSpace(handle))
@@ -60,7 +62,7 @@ public class AgentTools(CodeforcesClient cf, ProblemStore store)
             return "Brak nierozwiązanych zadań dla tych kryteriów. Poszerz zakres ratingu albo zmień tagi.";
 
         // losowe 5 zadan
-        var picked = found.OrderBy(_ => Random.Shared.Next()).Take(5);
+        var picked = found.OrderBy(_ => Random.Shared.Next()).Take(Math.Clamp(count, 1, 5));
 
         return string.Join("\n", picked.Select(p =>
             $"{p.Id} „{p.Name}”, rating {p.Rating}, tagi: {string.Join(", ", p.Tags)}, link: {p.Url}"));
@@ -105,7 +107,7 @@ public class AgentTools(CodeforcesClient cf, ProblemStore store)
         if (solved.Count == 0)
             return $"{handle} nie ma rozwiązanych zadań spełniających te kryteria.";
 
-        return $"Rozwiązane (spełniające kryteria): {solved.Count}. Pierwsze 10:\n" + string.Join("\n", solved.Take(10).Select(p =>
+        return $"{handle} ROZWIĄZAŁ {solved.Count} zadań spełniających kryteria. Pierwsze 10:\n" + string.Join("\n", solved.Take(10).Select(p =>
             $"{p.Id} „{p.Name}”, rating {p.Rating?.ToString() ?? "brak (np. zadanie z gyma)"}, tagi: {string.Join(", ", p.Tags)}, link: {p.Url}"));
     }
 }
